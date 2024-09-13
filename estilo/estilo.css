@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    font-family: "IBM Plex Mono", monospace;
+}
+body{background-color: rgb(148, 148, 146);} 
+
+main{
+    width: 1366px;
+    height: 2000px;
+    margin: 0 auto;
+}
+
+header{
+    width: 1366px;
+    height: 100px;
+    text-align: center;
+
+    
+}
+
+
+
+nav{
+    width: 1366px;
+    height: 100px;
+    background-color: rgb(87, 34, 148);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+nav a{
+    color: rgb(157, 162, 165);
+    text-decoration: none;
+    padding: 15px;
+    font-family: "IBM Plex Mono", monospace;
+    transition: 1s;
+    border-radius: 10px;
+    
+}
+
+nav a:hover{
+    background-color: rgb(173, 171, 171);
+    transform: scale(1.2);
+
+}
+
+
+
+
+section{
+    width: 1366px ;
+    height: 1800px;
+    border: 10px solid black;
+    
+}
+
+.Fechas .horario1{
+    width: 300px;
+    height: 300px;
+    float: right;
+    text-align: center;
+    margin-left: 33px;
+    
+}
+
+section .personaje{
+    width: 1300px;
+    height: 350px;
+    
+    margin-left: 33px;
+    margin-top: 20px;
+    float: left;
+
+}
+
+.personaje .foto{
+    width: 300px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    margin-left: 33px;
+    
+}
+
+.personaje .foto2{
+    width: 300px;
+    height: 300px;
+    float: right;
+    text-align: center;
+    margin-left: 33px;
+    
+}
+
+.personaje .texto{
+    width: 800px;
+    height: 300px;
+    background-color: rgba(255, 235, 205, 0.575);
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.personaje .texto2{
+    width: 800px;
+    height: 300px;
+    background-color: rgba(255, 235, 205, 0.575);
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    
+    
+    
+    
+}
+footer{
+    width: 1366px;
+    height: 270px;
+    background-color: rgb(87, 34, 148);
+    border: 10px solid black;
+  
+    iframe{
+        margin: 0 auto;
+        display: table;
+        }
+}
